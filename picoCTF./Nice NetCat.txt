@@ -1,0 +1,11 @@
+# Nice Netcat
+
+Topic - usage of the tool nc
+copy the link and the given number
+
+>>> nc <link>
+
+you will get a output of various decimals. That could be ASCII encoding.
+Go to a ASCII converter and convert the numbers to ASCII.
+
+FLAG - picoCTF{g00d_k1tty!_n1c3_k1tty!....}
