@@ -1,0 +1,12 @@
+# Python Wrangling
+
+Topic - Parser debugging output (a topic to learn and comprehend)
+
+firstly, download all the files.
+>>> cat pw.txt
+copy the output
+>>> python ende.py -d flag.txt.en
+paste the password
+
+FLAG - picoCTF{4p0110_1n_7h3_h0us3_....}
+
