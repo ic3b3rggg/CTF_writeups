@@ -1,0 +1,23 @@
+# Transformation
+# Reverse_Engineering
+
+Topics - proficiency in python and ascii codes
+
+download the enc file.
+
+A code is given informing about how the flag was encrypted in python
+
+Reverse Engineer the code in python can be done by the following code.
+
+import math
+flag = "灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸彤㔲挶戹㍽"
+actual_flag = ""
+
+for i in range(0,len(flag)):
+    second_char = chr(ord(flag[i])%128)                   // as the ord of each char of the flag should be between 0 to 127
+    first_char = chr(math.floor((ord(flag[i]) >> 8)))     // bitwise operation reversal and flooring (flooring is unnecessary but done for good measure)
+    actual_flag = actual_flag + first_char + second_char  // each char of the encrypted flag corresponds to two chars of the actual flag as the for loop used for encryption works in pairs
+
+print(actual_flag)
+
+FLAG - picoCTF{16_bits_inst34d_of_8_......}
