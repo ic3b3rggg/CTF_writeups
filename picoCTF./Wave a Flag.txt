@@ -1,0 +1,8 @@
+# Wave a Flag
+
+download the binary executable file- wave
+
+>>> chmod 777 wave
+>>> ./wave -h
+
+FLAG - picoCTF{b1scu1ts_4nd_gr4vy_....}
