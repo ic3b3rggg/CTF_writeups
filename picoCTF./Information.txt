@@ -1,0 +1,16 @@
+# Information
+
+# Forensics
+
+tools to learn to use -- 1. exiftool 2. base64 (encoding system)
+
+Download the picture
+
+>>> exiftool cat.jpg
+
+take a look at the license of the picture. It could be a base64 string
+Copy the license.
+
+>>> echo <license> | base64 -d    ( -d for decrypting )
+
+Flag - PicoCTF{the_m3tadata_1s_.... }
