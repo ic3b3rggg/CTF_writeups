@@ -1,0 +1,22 @@
+# Stonks
+
+# Binary Exploitation
+
+topics - C , format string vulnerability , CyberChef , Decoding Hex value , Endianness
+
+Trying to overflow the buffer yields no results. Hence this is not a buffer overflow exploit.
+
+on line 93, "print(user_buf);" is vulnerable due to format string vulnerablility.
+
+inputting a lot of "%x" gives a hex encoded string. We can use CyberChef to decode it to ascii char from the Hex value.
+
+However, the flag is still not visible. But the structure of it is visible. Identify the correct boundaries where the flag must lie.
+In this case it should be readable characters. (such as "o" and curly braces)
+and remove all other junk from the input except that area.
+
+Swap the Endianness of the input to 4 bytes word length.
+
+The Flag will mostly be visible. Now remove all other non readable chars {such as "." etc.}
+
+FLAG - picoCTF{I_l05t_4ll_my_m0n3y_.....}
+
