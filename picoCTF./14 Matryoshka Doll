@@ -1,0 +1,13 @@
+# Matryoshka Doll
+
+# Forensics
+
+topics - tool eog, binwalk, file   {file hidden inside file}
+
+download the image and run binwalk on it.
+then you can see you have a zip file embedded on the jpg file.
+unzip the picture.
+
+keep repeating it until a "flag.txt" appears.
+
+FLAG - picoCTF{4f11048e83ffc7d342a15bd...}
