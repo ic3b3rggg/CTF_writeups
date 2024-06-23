@@ -1,0 +1,10 @@
+#GET aHEAD
+#Web Exploitation
+
+topics - HTTP Request and modifying the http requests
+
+If we press the blue button it sends a post request. and the red button sends a GET request
+
+Do if we can modify the POST request and resend it as a HEAD, then we get the flag easily.
+
+FLAG - picoCTF{r3j3ct_th3_du4l1ty_....}
