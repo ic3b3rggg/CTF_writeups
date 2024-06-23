@@ -18,4 +18,4 @@ then write this code -
 >>> p = pow(c,d,n)
 >>> print(bytearray.fromhex(hex(p)[2:]).decode('ascii'))  
 
-FLAG - picoCTF{sma11_N_n0_g0od_13686679}
+FLAG - picoCTF{sma11_N_n0_g0od_...}
