@@ -1,0 +1,12 @@
+#Super SSH
+
+topics - proficiency in using new tools, SSH
+
+write on terminal
+
+>>> ssh -l ctf-player -p <port number> <link>
+proceed...
+
+input the password
+
+FLAG - 
