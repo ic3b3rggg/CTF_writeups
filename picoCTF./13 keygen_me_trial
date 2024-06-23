@@ -1,0 +1,23 @@
+#keygen_me_trial
+
+#Reverse Engineering 
+
+topics - Proficiency in Python
+
+this challenge needs you to focus on the lines where the hints of flags could be found.
+And these are the infos you can gather about the flag
+
+>>> key_part_static1_trial = "picoCTF{1n_7h3_|<3y_of_"
+>>> key_part_dynamic1_trial = "xxxxxxxx"
+>>> key_part_static2_trial = "}"
+>>> key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial + key_part_static2_trial
+
+and the function "check_key"
+
+there you will see... The "key_part_dynamic1_trial" is actually some random chars of the SHA256 hashing of "username_trial" 
+Which was assigned as "FRASER"
+
+now decode the chars and you will get this flag.
+
+FLAG - picoCTF{1n_7h3_|<3y_of_ ..... }
+
