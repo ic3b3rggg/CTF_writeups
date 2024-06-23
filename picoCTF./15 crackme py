@@ -1,0 +1,13 @@
+# crackme.py
+
+# Reverse Engineering
+
+topics - proficiency in python
+
+if you check the program then you can see that the decoding algorithm is already given as a function
+
+edit the program a bit and call that function.
+
+you will get the flag.
+
+FLAG - picoCTF{1|\/|_4_p34|\|ut_f3b....}
