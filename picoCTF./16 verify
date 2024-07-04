@@ -1,0 +1,20 @@
+#verify
+
+topics - grep, sha256sum
+
+go to "drop-in" folder
+
+>>> cat checksum.txt
+copy the hash...
+
+>>>sha256sum files/* | grep <copied Hash>              [ files/"*" indicates that this opertion will be iterated through all the files in the "Files" Directory ]
+
+then find the file..
+
+>>> cat decrypt.sh
+
+then copy the command of openssl (on the last if statement)
+
+then replace the address given with the location of that matched file and execute the command
+
+FLAG - 
