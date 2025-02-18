@@ -1,4 +1,4 @@
-# BCS CTF 2024
+# BCS CTF 2025
 A CTF event organized by Bangladesh Computer Society in 2025. <br/>
 This was an open competition where the awards were given in two categories.
 - Professional Category
